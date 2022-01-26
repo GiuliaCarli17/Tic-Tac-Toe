@@ -43,6 +43,7 @@ const Game = () => {
 
     useEffect(()=> {
 		checkIfThereIsWinner();
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	},[game]);
 
     const checkIfThereIsWinner = () => {
